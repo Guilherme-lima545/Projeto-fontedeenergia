@@ -95,3 +95,22 @@ ul li a {
 li a:hover {
     color: blue;
 }
+
+.fraseativo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 25%;
+}
+
+
+.fraseativo h1:hover {
+    color: blue;
+}
+
+.fraseativo {
+    display: none;
+}

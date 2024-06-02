@@ -17,3 +17,18 @@
         margin-left: 250px;
     }
 }
+
+
+@media(max-width: 1313px) {
+    .frase h1 {
+        display: none;    }
+
+    .projeto {
+        margin-top: 100px;
+    }
+
+
+    .fraseativo {
+        display: block;
+    }
+}
