@@ -1,0 +1,19 @@
+@media(max-width: 1570px) {
+    .frase h1 {
+        padding-left: 150px;
+    }
+}
+
+@media(max-width: 1401px) {
+    .frase h1 {
+        display: block;
+        margin-left: 90px;
+    }
+}
+
+@media(max-width: 1300px) {
+    .frase h1 {
+        display: block;
+        margin-left: 250px;
+    }
+}
