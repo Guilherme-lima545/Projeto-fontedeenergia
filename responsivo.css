@@ -1,114 +1,98 @@
-@media(max-width: 1570px) {
-    .frase h1 {
-        padding-left: 150px;
+@media (max-width: 2560px) {
+    nav ul li {
+        margin-left: 150px;
     }
 }
 
-@media(max-width: 1422px) {
-    .frase h1 {
-        display: block;
-        margin-left: 90px;
+@media (max-width: 1440px) {
+    nav ul li {
+        margin-top: 25px;
+    }
+
+
+    .titulo h1 {
+       width: 50%;
+    }
+
+    .titulo2 {
+        margin-left: 300px;
+    }
+
+    .titulo3 {
+        margin-left: 5%;
     }
 }
 
-@media(max-width: 1331px) {
-    .frase h1 {
-        display: block;
+@media (max-width: 1024px) {
+    .titulo3 h3 {
         margin-left: 250px;
     }
 }
 
-@media(max-width: 1300px) {
-    .frase h1 {
-        display: block;
-        margin-left: 250px;
+@media (max-width: 768px) {
+    .logo {
+        width: 70%;
+    }
+
+    .titulo {
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-top: 30px;
+    }
+
+    .titulo2 {
+        margin-left: 150px;
+    }
+
+    .titulo3 h3 {
+        margin-left: 120px;
     }
 }
 
+@media (max-width: 425px) {
 
-@media(max-width: 1315px) {
-    .frase h1 {
-        display: none;    }
-
-    .projeto {
-        margin-top: 100px;
+    nav ul li {
+        margin-top: 30px;
+        margin-left: 120px;
     }
 
-
-    .fraseativo {
-        display: block;
-        padding-right: 10%;
+    .logo {
+        width: 120%;
     }
-}
 
+    .titulo h1 {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding-right: 30px;
+    }
 
-@media(max-width: 1105px) {
-    .fraseativo h1 {
+    .titulo2  {
+        margin-left: 30px;
+    }
+
+    .titulo3 h3 {
+        width: 50%;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .imagem p {
         width: 100%;
         text-align: center;
-        margin-right: 90%;
-    }
-}
-
-@media(max-width: 900px) {
-    .imagempj1 img {
-        width: 30%;
+        margin-left: 100px;
     }
 
-    .imagempj1  {
+    .texto {
+        width: 70%;
+        text-align: center;
+    }
+
+
+    .imagem {
+        width: 50%;
         flex-direction: column;
-        justify-items: center;
-        align-items: center;
-    }
-
-    
-
-    .fraseativo h1 {
-        width: 100%;
-        text-align: center;
-        margin-right: 90%;
-    }
-
-    .projeto h1 {
-        text-align: center;
-    }
-}
-
-@media (max-width: 536px) {
-    ul li a {
-        padding: 10px;
-    }
-
-    .fraseativo h1 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .fraseativo {
-        width: 50%;
-        margin-right: 15%;
-    }
-}
-
-
-@media (max-width: 415px) {
-    ul li a {
-        padding: 5px;
-    }
-
-    .fraseativo h1 {
-        width: 100%;
-        text-align: center;
-    }
-
-    
-    .imagempj1 img {
-        width: 50%;
-    }
-}
-
-@media (max-width: 386px) {
-    ul li a {
-        padding: 1px;
     }
 }
